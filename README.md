@@ -1,4 +1,4 @@
-# AI Interview Coach
+# AI Mock Interviewer Using AI Agent
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-ff4b4b?logo=streamlit&logoColor=white)](https://streamlit.io/) 
 [![Built with Python](https://img.shields.io/badge/Built%20with-Python-blue?logo=python&logoColor=white)](https://www.python.org/) 
@@ -51,7 +51,6 @@ This README provides an overview of the AI Mock Interviewer, its goals, features
 
 <img width="1348" height="782" alt="Screenshot 2025-08-03 at 1 25 39 PM" src="https://github.com/AkashThorat7/AI_Mock_interviewer/blob/main/assets/first.jpg" />
 <img width="1349" height="783" alt="Screenshot 2025-08-03 at 1 26 19 PM" src="https://github.com/AkashThorat7/AI_Mock_interviewer/blob/main/assets/second.jpg" />
-<img width="1350" height="783" alt="Screenshot 2025-08-03 at 1 26 50 PM" src="https://github.com/user-attachments/assets/332c8184-045c-4df5-ab8c-4bd2092bd190" />
 <img width="1343" height="785" alt="Screenshot 2025-08-03 at 1 27 32 PM" src="https://github.com/AkashThorat7/AI_Mock_interviewer/blob/main/assets/third.jpg" />
 
 ---
