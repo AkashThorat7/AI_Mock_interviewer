@@ -8,41 +8,44 @@
 [![AI Agent](https://img.shields.io/badge/AI%20Agent-lightgrey?logo=robot&logoColor=white)](https://en.wikipedia.org/wiki/Intelligent_agent)
 [![Project Status](https://img.shields.io/badge/Status-Complete-brightgreen)]()
 
+# AI Mock Interviewer using AI Agent
 
 Your personal AI-powered mock interview assistant, designed to help you prepare confidently for real-world job interviews.
 
-🔗 [[Try the App]](https://ai-interview-coach-11.streamlit.app/)
+🔗 [[Demo Coming Soon]]
 
-This app simulates an actual interview environment by asking role-specific questions based on a job description you provide. You can speak your answers out loud, get real-time transcription, and receive AI-generated feedback to improve your structure, clarity, and confidence.
+This app simulates an actual interview environment by asking role- and round-specific questions. You can speak your answers out loud, get real-time transcription, and receive AI-generated feedback to improve your structure, clarity, and confidence.
 
 ---
 
 ## ☕️ Project Goals
 
-AI Interview Coach was built to address a common problem: interview anxiety and lack of preparation. Many candidates struggle to structure answers or get flustered under pressure.
+AI Mock Interviewer was built to address a common problem: students and candidates often skip mock interviews and struggle during real interviews due to lack of preparation. This app helps you:
 
-This app helps you:
-
-- Practice in private before facing real panels  
-- Learn how to tackle behavioral questions effectively  
-- Receive structured, repeatable feedback  
-- Build confidence by speaking answers aloud  
+* Practice in a private, AI-driven environment before real interviews
+* Learn to tackle both technical and HR questions effectively
+* Receive structured, repeatable feedback
+* Build confidence by speaking answers aloud and iterating based on feedback
 
 ---
 
 ## 💬 Features
 
-- **Job Description–Driven Interviews**: Paste any job description — technical or non-technical — and the app generates tailored behavioral and technical questions aligned with the role.
+* **Role & Round Type–Driven Interviews**: Provide your role and interview round type (e.g., Technical, HR), and the app generates tailored questions using AI, including trending and relevant content.
 
-- **Voice-First Experience**: Speak your answers aloud using your microphone. The app transcribes your speech in real-time using **Whisper** and responds to you via audio using **gTTS**.
+* **Voice-First Experience**: Speak your answers aloud using your microphone. The app transcribes your speech in real-time using **Whisper** or a similar STT model and responds via audio using **gTTS** or another TTS model.
 
-- **AI Feedback in Real Time**: After you answer, **Gemini** evaluates your response and gives feedback on clarity, relevance, structure, and overall delivery — just like a real interviewer might.
+* **AI Feedback in Real Time**: After each answer, the LLM evaluates your response and gives feedback on clarity, relevance, structure, technical correctness, and overall delivery.
 
-- **Difficulty Modes**: Choose **Beginner**, **Intermediate**, or **Advanced**. The complexity of questions scales with your selection, making the app suitable for all experience levels.
+* **Difficulty Modes**: Select **Beginner**, **Intermediate**, or **Advanced** to adjust question complexity according to your preparation level.
 
-- **Streamlit-Powered UI**: Fast-loading, mobile-friendly interface with minimal clicks, simple navigation, and smooth interaction between voice, feedback, and controls.
+* **Streamlit-Powered UI**: Mobile-friendly interface with minimal clicks, smooth interaction between voice input, transcription, and feedback display.
+
+* **Future Enhancements**: Improve prompt generation for questions and feedback summaries, integrate real-time communication using WebRTC, add additional parameters like skills and seniority for personalized questions, and build an analytics dashboard to track progress.
 
 ---
+
+This README provides an overview of the AI Mock Interviewer, its goals, features, and future plans for improving user experience and interactivity.
 
 ## 💻 UI Preview
 
