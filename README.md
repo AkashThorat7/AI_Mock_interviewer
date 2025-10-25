@@ -1,10 +1,15 @@
 # AI Interview Coach
 
 [![Streamlit](https://img.shields.io/badge/Streamlit-ff4b4b?logo=streamlit&logoColor=white)](https://streamlit.io/)  
+
 [![Built with Python](https://img.shields.io/badge/Built%20with-Python-blue?logo=python&logoColor=white)](https://www.python.org/)  
+
 [![Speech to Text - Whisper](https://img.shields.io/badge/Speech%20to%20Text-Whisper-blueviolet?logo=openai&logoColor=white)](https://github.com/openai/whisper)  
+
 [![LangGraph](https://img.shields.io/badge/LangGraph-orange?logo=python&logoColor=white)](https://www.langchain.com/langgraph)  
+
 [![Groq](https://img.shields.io/badge/Groq-ff69b4?logo=groq&logoColor=white)](https://www.groq.com/)  
+
 [![Project Status](https://img.shields.io/badge/Status-Complete-brightgreen)]()
 
 
