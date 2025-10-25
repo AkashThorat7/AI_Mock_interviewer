@@ -49,11 +49,10 @@ This README provides an overview of the AI Mock Interviewer, its goals, features
 
 ## 💻 UI Preview
 
-<img width="1348" height="782" alt="Screenshot 2025-08-03 at 1 25 39 PM" src="https://github.com/user-attachments/assets/2d3ea4e3-e870-4df4-9384-ffd82d6649c1" />
-<img width="1349" height="783" alt="Screenshot 2025-08-03 at 1 26 19 PM" src="https://github.com/user-attachments/assets/ba189d24-ecb9-4b04-bea6-cab5c7bdb98e" />
+<img width="1348" height="782" alt="Screenshot 2025-08-03 at 1 25 39 PM" src="https://github.com/AkashThorat7/AI_Mock_interviewer/blob/main/assets/first.jpg" />
+<img width="1349" height="783" alt="Screenshot 2025-08-03 at 1 26 19 PM" src="https://github.com/AkashThorat7/AI_Mock_interviewer/blob/main/assets/second.jpg" />
 <img width="1350" height="783" alt="Screenshot 2025-08-03 at 1 26 50 PM" src="https://github.com/user-attachments/assets/332c8184-045c-4df5-ab8c-4bd2092bd190" />
-<img width="1343" height="785" alt="Screenshot 2025-08-03 at 1 27 32 PM" src="https://github.com/user-attachments/assets/74797b75-46da-43c4-b7d3-4b3114f7c35d" />
-<img width="1353" height="784" alt="Screenshot 2025-08-03 at 1 28 34 PM" src="https://github.com/user-attachments/assets/d806d806-d76c-4dc6-8da7-b4600df69fc6" />
+<img width="1343" height="785" alt="Screenshot 2025-08-03 at 1 27 32 PM" src="https://github.com/AkashThorat7/AI_Mock_interviewer/blob/main/assets/third.jpg" />
 
 ---
 
@@ -62,32 +61,32 @@ This README provides an overview of the AI Mock Interviewer, its goals, features
 | Component        | Tech Used                |
 |------------------|--------------------------|
 | Frontend UI      | Streamlit                |
-| Voice Input      | Streamlit audio input + Whisper    |
+| Voice Input      | streamlit audio input + Whisper   |
 | Speech Output    | gTTS                     |
-| AI Engine        | Gemini API               |
+| AI Agent         | Langgraph                |
 | Core Logic       | Python                   |
+| LLM              | Groq API                 |
 | Deployment       | Streamlit Cloud          |
 
----
-
-## 🧠 Key Learnings
-
-- **Voice Integration in Web Apps**: Learned to integrate real-time voice recording using `sounddevice` (changed to streamlit audio input), and send the audio to OpenAI’s **Whisper** for seamless transcription.
-
-- **Prompt Engineering for Dual Roles & Difficulty Scaling**: Refined prompt structures for two key tasks: generating interview questions and evaluating user responses. Also learned to dynamically scale difficulty using prompt tweaks.
-
-- **Streamlit UI Implementation**: Built a clean, voice-first interface using **Streamlit**, ensuring smooth interaction across devices.
-
-- **Gemini API Integration**: Successfully integrated **Google Gemini** to generate questions and evaluate responses. Learned to handle token limits, structure prompts effectively, and parse replies into actionable feedback.
 
 ---
 
-## 📈 Future Scope
+## Key Learnings
 
-- Store user history, show progress graphs
-- Add emotion analysis or confidence rating
-- Export transcripts + feedback as PDF
-- Replace gTTS with more natural TTS like ElevenLabs
+Voice Integration in Web Apps: Learned to capture real-time audio using Streamlit audio input, and process it with OpenAI Whisper for seamless transcription.
+
+Prompt Engineering for Role & Round: Refined prompts to generate interview questions and evaluate answers effectively. Learned to dynamically adjust difficulty using prompt tweaks.
+
+Streamlit UI Implementation: Built a clean, voice-first interface, ensuring smooth interaction across devices.
+
+AI Feedback System Integration: Integrated Groq LLM to generate questions and evaluate responses. Learned to manage token limits, structure prompts efficiently, and parse replies into actionable feedback.
+
+System Orchestration & Agent Graphs: Implemented a multi-step agent flow using LangGraph to manage question generation, TTS playback, recording, STT transcription, and evaluation.
+
+Performance Optimization: Learned techniques to reduce latency, handle concurrency, and ensure real-time responsiveness in multi-component AI systems.
+---
+
+
 
 ---
-**Created By: Chhavi Dhankhar**
+**Created By: Akash Thorat**
