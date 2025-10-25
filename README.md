@@ -14,7 +14,7 @@ Your personal AI-powered mock interview assistant, designed to help you prepare 
 
 🔗 [[Demo Coming Soon]]
 
-This app simulates an actual interview environment by asking role- and round-specific questions. You can speak your answers out loud, get real-time transcription, and receive AI-generated feedback to improve your structure, clarity, and confidence.
+This app simulates an actual interview environment by  asking role- and round-specific questions. You can speak your answers out loud, get real-time transcription, and receive AI-generated feedback to improve your structure, clarity, and confidence.
 
 ---
 
