@@ -3,7 +3,7 @@
 [![Deployed on Streamlit](https://img.shields.io/badge/Deployed%20on-Streamlit-ff4b4b?logo=streamlit)](https://ai-interview-coach.streamlit.app)
 [![Built with Python](https://img.shields.io/badge/Built%20with-Python-blue?logo=python)](https://www.python.org/)
 [![Uses Whisper](https://img.shields.io/badge/Speech%20to%20Text-Whisper-blueviolet)](https://github.com/openai/whisper)
-[![Langgraph: AI Agent](https://www.langchain.com/langgraph/)
+[![Langgraph](https://www.langchain.com/langgraph)
 [![Project Status](https://img.shields.io/badge/Status-Complete-brightgreen)]()
 
 Your personal AI-powered mock interview assistant, designed to help you prepare confidently for real-world job interviews.
